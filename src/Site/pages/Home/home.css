@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+.welcome{
+    color: #f3ebeb;
+    font-weight: 600;
+}
+
+.name-user{
+    color: #d75413;
+    font-weight: 700;
+}
+
+.profile {
+    width: 230px;
+    border-radius: 100%;
+    margin-left: 15%;
+    border: 1px solid #d75413;
+}
+
+.funcao{
+    color: #a7a6a6;
+    text-transform: uppercase;
+}
+
+.stack, .titulo{
+    color: #d4d4d4;
+}
+
+.bg-orange{
+    background-color: #d75413
+}
+
+
+.progress {
+    position: relative;
+    height: 20px;
+}
+.progress > .progress-type {
+	position: absolute;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgb(255, 255, 255);
+}
+.progress > .progress-completed {
+	position: absolute;
+	right: 0px;
+	font-weight: 800;
+}
