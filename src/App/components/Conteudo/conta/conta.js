@@ -28,7 +28,7 @@ const Conta = () => {
   }, []);
 
   return (
-    <div className='container-fluid container-conta mt-5'>
+    <div className="container container-conta mt-5">
     <form className="row g-2 needs-validation" noValidate>
       <div className="form-floating form-floating col-md-4">
     <input type="text" className="form-control mb-3 mb-3 focus-input" id="validationCustom01" disabled value="Talita" required/>

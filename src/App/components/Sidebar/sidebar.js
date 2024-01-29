@@ -41,7 +41,7 @@ const Sidebar = () => {
   };
 // END FUNÇÕES
   return (
-    <div className={`d-flex  sidebar ${expandido ? "expandido" : ""}`}>
+    <div className={`d-flex sidebar ${expandido ? 'expandido' : ''}`}>
       <div className="bg-dark" id="sidebar">
         <div className="row">
           <div className="list-group list-group-flush mb-5">
