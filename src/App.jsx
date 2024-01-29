@@ -9,10 +9,10 @@ function App() {
    <BrowserRouter>
    <Routes>
 
-<Route path="/" element= {< Site />} exact />
-<Route path="/projetos" element= {<Projetos />} exact />
-<Route path="/app" element= {<Login />} exact />
-<Route path="/aplicativo" element= {<Aplicativo />} exact />
+    <Route path="/" element= {< Site />} exact />
+    <Route path="/projetos" element= {<Projetos />} exact />
+    <Route path="/app" element= {<Login />} exact />
+    <Route path="/aplicativo" element= {<Aplicativo />} exact />
 
    </Routes>
    </BrowserRouter>

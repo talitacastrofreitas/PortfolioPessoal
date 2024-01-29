@@ -48,3 +48,16 @@ body{
 	right: 0px;
 	font-weight: 800;
 }
+
+.button-portfolio{
+    background: transparent;
+    border: 1px solid #d75413;
+    border-radius: 2px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.button-portfolio:hover{
+    background: #d75413;
+    color: #fff;
+}

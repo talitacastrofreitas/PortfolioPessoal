@@ -1,13 +1,16 @@
 import { useState } from "react";
 import "./login.css";
+import { useNavigate } from "react-router-dom";
 
-const Login = () => {
+function Login() {
   const [action, setAction] = useState("Login");
 
+  const navigate = useNavigate();
   const handleSubmit = () => {
-    // Implemente a lógica para manipular o envio do formulário
     if (action === "Login") {
       console.log("Fazer login");
+
+      navigate("../aplicativo");
     } else {
       console.log("Registrar");
     }
@@ -120,6 +123,6 @@ const Login = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Login;

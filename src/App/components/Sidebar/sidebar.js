@@ -1,5 +1,3 @@
-// ... (código anterior)
-
 import React, { useEffect, useState } from "react";
 import "./sidebar.css";
 import { Link } from "react-router-dom";
@@ -9,7 +7,6 @@ import talitaImage from "../../../Site/pages/Home/Image/talita.jpg";
 // CONTEÚDO
 import Dashboard from "../Conteudo/dashboard/dashboard";
 import Conta from "../Conteudo/conta/conta";
-// import Projetos from "../Conteudo/projetos/projetos";
 import Trabalhos from "../Conteudo/trabalhos/trabalhos";
 import Skills from "../Conteudo/skills/skills";
 import Configuracoes from "../Conteudo/configuracoes/config";
@@ -23,7 +20,7 @@ const Sidebar = () => {
 
   useEffect(() => {
     const verificarTamanhoTela = () => {
-      setTelaPequena(window.innerWidth <= 768); // Pode ajustar o valor conforme necessário
+      setTelaPequena(window.innerWidth <= 768); 
     };
 
     verificarTamanhoTela();
@@ -109,19 +106,6 @@ const Sidebar = () => {
                       )}
                     </Link>
                   </li>
-
-                  {/* <li className="link">
-                    <Link
-                      to="#"
-                      className="btn-side  ms-3"
-                      onClick={() => handleLinkClick("projetos")}
-                    >
-                      <i className="icon-side fa-solid fa-code-fork me-3 mb-3 mt-3"></i>
-                      {telaPequena ? null : (
-                        <span className="texto-lateral">Projetos</span>
-                      )}
-                    </Link>
-                  </li> */}
 
                   <li className="link">
                     <Link
@@ -223,7 +207,7 @@ const Sidebar = () => {
                 <i className="fa-solid fa-bars"></i>
               </span>
             </Link>
-            <Link to="../app">
+            <Link to="/app">
               <i className="text-white me-3 fa-solid fa-power-off"></i>
             </Link>
           </div>
@@ -238,7 +222,6 @@ const Sidebar = () => {
             {secaoAtiva === "trabalhos" && <Trabalhos />}
             {secaoAtiva === "skills" && <Skills />}
             {secaoAtiva === "configuracoes" && <Configuracoes />}
-            {/*  Adicione outros blocos de conteúdo conforme necessário  */}
           </div>
         </div>
       </div>

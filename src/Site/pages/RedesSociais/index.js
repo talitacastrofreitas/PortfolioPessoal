@@ -2,7 +2,7 @@ import './redes_sociais.css'
 
 function Redes_Sociais(){
     return(
-        <div className='container mt-3'>
+        <div className='container mt-2'>
 
            <i className="fa-brands fa-linkedin me-1"></i> 
            <a className="linkedin me-4" href="https://www.linkedin.com/in/talitacastrofreitas/">LinkedIn<i className=" fa-solid fa-arrow-up-right-from-square ms-2"></i>

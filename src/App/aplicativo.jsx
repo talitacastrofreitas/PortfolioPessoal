@@ -1,10 +1,10 @@
-import Logado from "./Logado";
+import Sidebar from "./components/Sidebar/sidebar";
 
 
 function Aplicativo() {
     return (
       <>
-      <Logado />
+      <Sidebar />
       </>
     );
   }
