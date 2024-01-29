@@ -66,7 +66,7 @@ const Conta = () => {
   <div className="form-floating col-md-3">
    
     <select className="form-select focus-input" id="validationCustom04" required>
-      <option active value="Choose">Selecione</option>
+      <option active="true" value="Choose">Selecione</option>
       <option>Acre (AC)</option>
       <option>Alagoas (AL)</option>
       <option>Amapá (AP)</option>

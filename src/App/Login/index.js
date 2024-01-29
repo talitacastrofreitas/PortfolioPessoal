@@ -62,7 +62,7 @@ function Login() {
                 id="name"
                 placeholder="exemple nome"
               />
-              <label htmlhtmlhtmlFor="name">
+              <label htmlFor="name">
                 <i className="fa-solid fa-user me-2 ms-3"></i> Nome
               </label>
             </div>
@@ -85,7 +85,7 @@ function Login() {
               id="email"
               placeholder="name@example.com"
             />
-            <label htmlhtmlhtmlFor="email">
+            <label htmlFor="email">
               <i className="fa-solid fa-envelope me-2 ms-3"></i> E-mail
             </label>
           </div>
@@ -97,7 +97,7 @@ function Login() {
               id="password"
               placeholder="senha123"
             />
-            <label htmlhtmlhtmlFor="password">
+            <label htmlFor="password">
               <i className="fa-solid fa-lock me-2 ms-3"></i> Senha
             </label>
           </div>
