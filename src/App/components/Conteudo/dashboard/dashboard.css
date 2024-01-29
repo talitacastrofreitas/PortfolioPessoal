@@ -1,0 +1,35 @@
+/* .container-dash{
+    background: #e0e0e0;
+} */
+.card-dash{
+    width: 14rem;
+    height: 8rem;
+    background: #fff;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.icons-dash{
+    font-size: 50px;
+}
+.fa-code{
+    color:darkcyan ;
+}
+.fa-briefcase{
+    color: rgb(149, 197, 149);
+}
+
+.fa-pen-nib{
+    color: rgb(235, 207, 52);
+}
+.title-dash{
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: none;
+} 
+.subtitle-dash{
+    font-weight: 300;
+    font-size: 55px;
+    margin-top: none;
+}

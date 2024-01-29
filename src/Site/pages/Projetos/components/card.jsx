@@ -8,9 +8,11 @@ function Card({ name, description, html_url}) {
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
           <p className="card-text custom-clamp">{description}</p>
-          <Link to={html_url} className="btn btn-dark">
+          <div className="text-center">
+          <Link to={html_url} className="btn btn-dark" target="_blank" rel="noopener noreferrer">
             VER PROJETO
           </Link>
+          </div>
         </div>
       
     </div>

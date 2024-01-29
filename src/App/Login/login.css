@@ -1,0 +1,55 @@
+.login {
+  padding: 30px;
+  width: 40%;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.input i {
+  color: #797979;
+}
+
+.focus-input:focus {
+  border-color: #d75413;
+  box-shadow: none;
+}
+
+.forgot-password {
+  color: #797979;
+  font-size: 14px;
+}
+
+.forgot-password span {
+  color: #d75413;
+  cursor: pointer;
+}
+
+.submit {
+  width: 100%;
+  color: #444444;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  height: 40px;
+  background-color: rgb(240, 240, 240);
+}
+
+.gray {
+  color: #aaa9a9;
+  background-color: #fff;
+}
+
+.btn-login {
+  background: #d75413;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  font-weight: 600;
+}
+.btn-login:hover {
+  background: #fff;
+  border: 1px solid #d75413;
+  transition: 0.3s;
+}

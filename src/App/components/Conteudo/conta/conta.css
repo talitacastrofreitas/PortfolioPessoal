@@ -1,0 +1,10 @@
+.container-conta{
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.focus-input:focus {
+    border-color: #d75413;
+    box-shadow: none;
+  }

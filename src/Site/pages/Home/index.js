@@ -8,8 +8,9 @@ function Home() {
     <div className="container mt-4">
       <div className="row">
         <div className="col-lg-6">
+        
           <strong className="welcome">SEJA BEM-VINDO(A)!</strong>
-
+          <img className="profile d-md-none d-block mt-4 mb-3" src={talitaImage} alt="usuario" />
           <h2 className="text-white mb-0">
             Olá, eu sou <span className="name-user">Talita Castro</span>
           </h2>
@@ -33,7 +34,7 @@ function Home() {
         </div>
 {/* COLUNA 2 */}
         <div className="col-lg-6 img">
-          <img className="profile" src={talitaImage} alt="usuario" />
+          <img className="profile d-none d-md-block" src={talitaImage} alt="usuario" />
 
 <h4 className="mt-3 titulo">Principais Competências</h4>
           <div className="progress mb-3">
